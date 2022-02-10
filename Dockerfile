@@ -5,7 +5,7 @@
 # build this image with command
 #   docker build -t cypress/included:9.2.1 .
 #
-FROM cypress/browsers:node16.13.0-chrome95-ff94
+FROM cypress/browsers:node16.13.2-chrome97-ff96
 
 # Update the dependencies to get the latest and greatest (and safest!) packages.
 RUN apt update && apt upgrade -y
